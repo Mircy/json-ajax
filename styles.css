@@ -1,0 +1,144 @@
+/* Reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* General Settings */
+
+header {
+	width: 80%;
+	margin: 0 auto;
+	padding: 3em 3em 3em 3em;
+	background-color: #b7e2c1;
+}
+
+main {
+	width: 80%;
+	margin: 0 auto;
+	padding: 3em 3em 3em 3em;
+	padding: 3em 3em 27em 3em;
+	background-color: #c7e8e8;
+	overflow: hidden;
+}
+
+h1{
+	font-size: 3em;
+	margin-left: 3em;
+}
+
+h2 {
+	font-size: 2em;
+	padding: 0 0 1em 0;
+}
+
+span {
+	font-weight: bold;
+}
+
+.hide_cities {
+	display: none;
+}
+
+.show_cities {
+	display: block;
+}
+
+.hide_feedback {
+	display: none;
+}
+
+.show_feedback {
+	display: block;
+}
+
+select {
+	width: 12em;
+	margin: 0 0 0.5em 0;
+	font-size: 1.25em;
+}
+
+#selection {
+	float: left;
+	width: 18em;
+	border-right: 1px solid #000000;
+	height: 20em;
+}
+
+#feedback {
+	float: left;
+	width: 60%;
+	padding: 0 0 0 3em;
+}
+
+#icon {
+	float: left;
+	padding: 0 2em 0 0;
+}
+
+#temp {
+	float:left;
+	font-size: 2em;
+	padding: 0.5em 0 0 0;
+}
+
+#desc {
+	clear:left;
+	font-size: 1.5em;
+	padding: 1em 1em 1em 1em;
+}
+
+#wind {
+	clear:left;
+	font-size: 1.5em;
+	padding: 0 1em 1em 1em;
+}
+
+#name {
+	color: #770000;
+}
